@@ -1,9 +1,9 @@
 package lessons.level.first.seventh;
 
 public class Cat {
-    String name;
-    public int appetiteValue;
-    boolean isHungry = true;
+    private String name;
+    private int appetiteValue;
+    private boolean isHungry = true;
 
     public Cat(String name, int appetiteValue) {
         this.name = name;

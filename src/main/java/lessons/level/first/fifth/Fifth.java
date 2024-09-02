@@ -1,4 +1,4 @@
-package lessons.level.first;
+package lessons.level.first.fifth;
 
 /*
     1. Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст.
@@ -15,7 +15,7 @@ package lessons.level.first;
     5. С помощью цикла вывести информацию только о сотрудниках старше 40 лет.
  */
 
-public class fifth {
+public class Fifth {
     public static void main(String[] args) {
         Employee[] employees = {
                 new Employee("Ivanov Ivan Ivanovich", "developer", "email@ya.ru", "9988", 19, 38),
@@ -26,7 +26,7 @@ public class fifth {
         };
 
         for (Employee employee : employees) {
-            if (employee.age > 40) {
+            if (employee.getAge() > 40) {
                 System.out.println(employee);
             }
         }
@@ -34,29 +34,3 @@ public class fifth {
 
 }
 
-class Employee {
-    String FIO, position, email, telephoneNumber;
-    int salary, age;
-
-    public Employee(String FIO, String position, String email, String telephoneNumber, int salary, int age) {
-        this.FIO = FIO;
-        this.position = position;
-        this.email = email;
-        this.telephoneNumber = telephoneNumber;
-        this.salary = salary;
-        this.age = age;
-    }
-
-
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "FIO='" + FIO + '\'' +
-                ", position='" + position + '\'' +
-                ", email='" + email + '\'' +
-                ", telephoneNumber='" + telephoneNumber + '\'' +
-                ", salary=" + salary +
-                ", age=" + age +
-                '}';
-    }
-}
