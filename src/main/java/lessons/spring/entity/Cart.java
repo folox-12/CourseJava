@@ -17,7 +17,7 @@ public class Cart {
     private Optional<Product> findElementInRepository(int id) {
         for (Product product : ProductRepository) {
             if (product.getId() == id) {
-                return Optional.of(product); // Возвращаем найденный элемент
+                return Optional.of(product);
             }
         }
         return Optional.empty();
