@@ -10,6 +10,7 @@ package lessons.spring;
     4. При каждом запросе корзины из контекста, должна создаваться новая корзина.
  */
 
+import lessons.spring.config.AppConfig;
 import lessons.spring.entity.Cart;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

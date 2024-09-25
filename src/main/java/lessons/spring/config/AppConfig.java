@@ -1,4 +1,4 @@
-package lessons.spring;
+package lessons.spring.config;
 
 import lessons.spring.entity.Cart;
 import lessons.spring.entity.Product;
