@@ -1,7 +1,7 @@
-package lessons.spring.config;
+package lessons.spring.first.config;
 
-import lessons.spring.entity.Cart;
-import lessons.spring.entity.Product;
+import lessons.spring.first.entity.Cart;
+import lessons.spring.first.entity.Product;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
