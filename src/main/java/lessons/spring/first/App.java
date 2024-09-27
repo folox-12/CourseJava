@@ -1,4 +1,4 @@
-package lessons.spring;
+package lessons.spring.first;
 
 /*
     1. Есть класс Product (id, название, цена). Товары хранятся в бине ProductRepository, в виде
@@ -10,8 +10,8 @@ package lessons.spring;
     4. При каждом запросе корзины из контекста, должна создаваться новая корзина.
  */
 
-import lessons.spring.config.AppConfig;
-import lessons.spring.entity.Cart;
+import lessons.spring.first.config.AppConfig;
+import lessons.spring.first.entity.Cart;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

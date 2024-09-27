@@ -1,6 +1,6 @@
-package lessons.spring.config;
+package lessons.spring.first.config;
 
-import lessons.spring.entity.Product;
+import lessons.spring.first.entity.Product;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
