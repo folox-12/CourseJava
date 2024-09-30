@@ -16,12 +16,12 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 public class AppConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/"
+        registry.addResourceHandler("//**").addResourceLocations("//"
         );
     }
 
     @Bean
-    public SpringResourceTemplateResolver templateResolver() {
+    SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new
                 SpringResourceTemplateResolver();
         templateResolver.setPrefix("/WEB-INF/templates/");
